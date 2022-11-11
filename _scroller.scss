@@ -1,0 +1,20 @@
+.scroller__navigation {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  &-list {
+    list-style: none;
+  }
+  &-list-item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 255, 0.6);
+    cursor: pointer;
+    &--active {
+      background-color: blue;
+    }
+  }
+}
