@@ -9,5 +9,8 @@ html {
   section {
     height: 100vh;
     text-align: center;
+    img {
+      max-width: 100%;
+    }
   }
 }
